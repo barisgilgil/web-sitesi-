@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: #2a2a2a;
+    padding: 20px 0;
+    border-bottom: 5px solid #ff9900;
+    position: relative;
+    padding-top: 55px;
+}
+
+.top-buttons {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.top-buttons button {
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.top-buttons button:nth-child(1) { 
+    background-color: #00b300;
+    color: #fff;
+    border: 2px solid #00ff00;
+}
+
+.top-buttons button:nth-child(1):hover {
+    background-color: #00cc00;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.top-buttons button:nth-child(2) { 
+    background-color: #008cba;
+    color: #fff;
+    border: 2px solid #33ccff;
+}
+
+.top-buttons button:nth-child(2):hover {
+    background-color: #007bb6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+
+.gta-title {
+    color: #33ccff;
+    font-size: 2.7em;
+    font-style: italic;
+    text-shadow: 3px 3px 5px #000000;
+    letter-spacing: 2px;
+}
+
+.header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header p {
+    color: #cccccc;
+    font-style: italic;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.plane-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+.plane-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    padding: 15px;
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+    border-radius: 5px;
+}
+
+.plane-card:hover {
+    transform: translateY(-5px); 
+    border-color: #ff9900;
+}
+
+.plane-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px; 
+    object-fit: cover; 
+    border-bottom: 2px solid #555;
+    margin-bottom: 10px;
+}
+
+.plane-card h3 {
+    color: #ff9900;
+    margin-top: 0;
+}
+
+.plane-card .price {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #33ff33;
+    margin: 10px 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.plane-card button {
+    flex: 1; 
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+
+.btn-details {
+    background-color: #ff9900;
+    color: #1a1a1a;
+}
+
+.btn-details:hover {
+    background-color: #e68a00;
+}
+
+.btn-buy {
+    background-color: #cc0000; 
+    color: #ffffff;
+    border: 2px solid #ff3333;
+}
+
+.btn-buy:hover {
+    background-color: #990000;
+}
+
+.footer {
+    background-color: #2a2a2a;
+    padding: 10px 0;
+    margin-top: 40px;
+    border-top: 5px solid #ff9900;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em; 
+    font-weight: bold; 
+    color: #33ccff; 
+}
